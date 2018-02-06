@@ -1,0 +1,247 @@
+{
+  "rasa_nlu_data": {
+    "entity_examples": [
+      {
+        "text": "Hallo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Wie geht es Dir",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Guten Tag",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Alles klar",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Wie spät ist es",
+        "intent": "time",
+        "entities": []
+      },
+      {
+        "text": "Welche Uhrzeit haben wir",
+        "intent": "time",
+        "entities": []
+      },
+      {
+        "text": "Kennst Du Kram",
+        "intent": "global_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "Kram",
+            "entity": "global_word"
+          }
+        ]
+      },
+      {
+        "text": "Was ist Kram",
+        "intent": "global_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Kram",
+            "entity": "global_word"
+          }
+        ]
+      },
+      {
+        "text": "Ja",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Jau",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Sicher",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Klaro",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Aber Hallo",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Immer",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "tschüß",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "tschüss",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "tschö",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "ende",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "fantastisch",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "mehr",
+        "intent": "more",
+        "entities": []
+      },
+      {
+        "text": "weiter",
+        "intent": "more",
+        "entities": []
+      }
+    ],
+    "intent_examples": [
+      {
+        "text": "Aber Hallo",
+        "intent": "greet"
+      },
+      {
+        "text": "Alles klar",
+        "intent": "greet"
+      },
+      {
+        "text": "Guten Tag",
+        "intent": "greet"
+      },
+      {
+        "text": "Hallo",
+        "intent": "greet"
+      },
+      {
+        "text": "Hi",
+        "intent": "greet"
+      },
+      {
+        "text": "Immer",
+        "intent": "affirm"
+      },
+      {
+        "text": "Ja",
+        "intent": "affirm"
+      },
+      {
+        "text": "Jau",
+        "intent": "affirm"
+      },
+      {
+        "text": "Kennst Du Kram",
+        "intent": "global_search"
+      },
+      {
+        "text": "Klaro",
+        "intent": "affirm"
+      },
+      {
+        "text": "Sicher",
+        "intent": "affirm"
+      },
+      {
+        "text": "Was ist Kram",
+        "intent": "global_search"
+      },
+      {
+        "text": "Welche Uhrzeit haben wir",
+        "intent": "time"
+      },
+      {
+        "text": "Wie geht es Dir",
+        "intent": "greet"
+      },
+      {
+        "text": "Wie spät ist es",
+        "intent": "time"
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye"
+      },
+      {
+        "text": "ende",
+        "intent": "goodbye"
+      },
+      {
+        "text": "fantastisch",
+        "intent": "affirm"
+      },
+      {
+        "text": "mehr",
+        "intent": "more"
+      },
+      {
+        "text": "ok",
+        "intent": "affirm"
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye"
+      },
+      {
+        "text": "tschö",
+        "intent": "goodbye"
+      },
+      {
+        "text": "tschüß",
+        "intent": "goodbye"
+      },
+      {
+        "text": "tschüss",
+        "intent": "goodbye"
+      },
+      {
+        "text": "weiter",
+        "intent": "more"
+      }
+    ]
+  }
+}
