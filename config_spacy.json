@@ -1,0 +1,19 @@
+{
+  "pipeline": "spacy_sklearn",
+  "path" : ".",
+  "cors_origins" : ["*"],
+  "port": 8080,
+  "language": "de",
+  "data" : "./train.json",
+  "ner_crf": {
+    "BILOU_flag": false,
+    "features": [
+      ["low", "upper", "pos", "pos2"],
+      ["bias", "low", "word3", "word2", "upper", "digit", "pos", "pos2", "pattern"],
+      ["low", "upper", "pos", "pos2"]],
+    "max_iterations": 50,
+    "L1_c": 1,
+    "L2_c": 1e-3
+  }
+}
+
