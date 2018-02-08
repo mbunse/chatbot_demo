@@ -71,7 +71,13 @@
                     data: JSON.stringify({ q: question }),
                     success: function (data) {
                         console.log(data);
-                        $("#chat").append("<p class=\"bot\">" + data["intent"]["name"] + "</p>\n");
+                        let response = data["intent"]["name"]  + ", " + Math.round(data["intent"]["confidence"]*100) + " %";
+                        if ("entities" in data) {
+                            data["entities"].forEach(function(element) {
+                                response += ", " + element["entity"] + ": " + element["value"];
+                            });
+                        }
+                        $("#chat").append("<p class=\"bot\">" + response + "</p>\n");
                         $("#chat").scrollTop($("#chat")[0].scrollHeight);
                     },
                     dataType: "json"
