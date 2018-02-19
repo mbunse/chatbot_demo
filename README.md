@@ -10,13 +10,13 @@ rasa-nlu-trainer -p 8080 -s ../chatbot/data.json
 ```
 Train the bot:
 ```
-cd ~/chatbot
+cd ~/chatbot_demo
 python -m rasa_nlu.train -c config_spacy.json
 ```
 
 Run the bot's REST API:
 ```
-cd ~/chatbot
+cd ~/chatbot_demo
 python -m rasa_nlu.server -c config_spacy.json
 ```
 
